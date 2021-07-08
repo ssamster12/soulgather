@@ -1,0 +1,28 @@
+name: soul gather
+description: mod for gathering souls to increase your stregnth and vitaility
+author: 'Gaming With Sam'
+
+inputs:
+ 
+ token: ${{ secrets.GITHUB_TOKEN }}
+    
+  tag: v1.0.0
+
+  commitish:
+    description: Unnecessary, if the tag provided is a git tag. If it isn't, release will be created off 'master'.
+    required: false
+
+  name: soul gather
+
+  body: mod for gathering souls to increase your stregnth and vitality
+
+  draft: false
+
+  prerelease: false
+
+  files: 
+  
+  gzip: true
+
+  allow_override: true
+ 
