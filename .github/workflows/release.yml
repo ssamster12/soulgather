@@ -20,7 +20,7 @@ inputs:
 
   prerelease: false
 
-  files: 
+  files: soul_gather.jar
   
   gzip: true
 
